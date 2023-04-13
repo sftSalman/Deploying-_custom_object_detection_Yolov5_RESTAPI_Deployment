@@ -1,0 +1,9 @@
+train: E:\s1\Job\cats_and_dog_detection\obj
+val: E:\s1\Job\cats_and_dog_detection\test
+
+nc: 3 
+names: ['cat', 'dog','']
+
+# mistake 
+# right format will be 0 : none as I did not annotate , 1: cat , 2: dog 
+# names: ['', 'cat','dog']

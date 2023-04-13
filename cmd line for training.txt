@@ -1,0 +1,25 @@
+py -m pip install -r requirements.txt
+
+py train.py --img 416 --batch 8 --epochs 50 --data E:\s1\Job\yolov4\dataset.yml --weights E:\s1\Job\yolov4\yolov5\yolov5s.pt
+
+
+E:\s1\Job\yolov4\dataset.yml
+
+E:\s1\Job\yolov4\yolov5\yolov5s.pt
+
+
+
+py detect.py --source E:\s1\Job\yolov4\cat_dog\image_test --weights E:\s1\Job\yolov4\yolov5\runs\train\exp5\weights\last.pt --img 416 --save-txt --save-conf
+
+
+E:\s1\Job\yolov4\cat_dog\image_test\2.jpg
+
+
+py detect.py --source E:\s1\Job\yolov4\cat_dog\image_test\2.jpg --weights E:\s1\Job\yolov4\yolov5\runs\train\exp5\weights\last.pt --img 416 --save-txt --save-conf
+
+
+
+
+
+
+     
