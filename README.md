@@ -1,4 +1,5 @@
-![alt text](static\yolo5.jpg)
+![Cute cat](static/yolov5.jpg)
+
 
 # Cats and Dogs detection using yolov5 and deployment using REST API (Flask)
 Yo
