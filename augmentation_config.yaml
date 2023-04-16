@@ -1,31 +1,4 @@
-# Augmentation Configuration File for YOLOv5 Training
-
-# Image Size
-img_size: 640  # Training image size (pixels)
-
-# Random Crop
-random_crop:
-  enable: True  # Enable random cropping
-  min_scale: 0.5  # Minimum crop scale
-  max_scale: 0.9  # Maximum crop scale
-  min_aspect_ratio: 0.5  # Minimum aspect ratio of the cropped image
-  max_aspect_ratio: 2.0  # Maximum aspect ratio of the cropped image
-
-# Flip
-flip:
-  enable: True  # Enable flipping
-  prob: 0.5  # Probability of flipping an image horizontally
-
-# HSV Color Jitter
-hsv:
-  enable: True  # Enable HSV color jitter
-  h_gain: 0.05  # Hue gain
-  s_gain: 0.1  # Saturation gain
-  v_gain: 0.1  # Value gain
-
-# Blur
-blur:
-  enable: True  # Enable blurring#train: set your own data path for training 
+#train: set your own data path for training 
 #val: set your own data path for validation/testing
 
 train : E:\s1\Job\Final\obj
@@ -74,26 +47,3 @@ random_erasing:
 
 # cat: 0 
 # dog : 1 
-  prob: 0.2  # Probability of applying blurring
-  radius: 1.0  # Blur radius
-
-# Noise
-noise:
-  enable: True  # Enable adding noise
-  prob: 0.1  # Probability of adding noise
-  amount: 0.01  # Noise amount
-
-# Perspective Transform
-perspective:
-  enable: True  # Enable perspective transform
-  prob: 0.05  # Probability of applying perspective transform
-  distortion_scale: 0.1  # Amount of perspective distortion
-
-# Random Erasing
-random_erasing:
-  enable: True  # Enable random erasing
-  prob: 0.5  # Probability of applying random erasing
-  min_area: 0.1  # Minimum area of the erased region
-  max_area: 0.3  # Maximum area of the erased region
-  min_aspect_ratio: 0.3  # Minimum aspect ratio of the erased region
-  max_aspect_ratio: 3.0  # Maximum aspect ratio of the erased region
