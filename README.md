@@ -1,4 +1,4 @@
-#Object Detection using YOLOv4
+# Object Detection using YOLOv4
 This project is an implementation of object detection using the YOLOv4 algorithm, which is a state-of-the-art deep learning algorithm for object detection. The project includes pre-trained weights for the YOLOv4 model, which can be used to detect a wide range of objects in images and videos.
 
 
@@ -11,7 +11,7 @@ To get started with this project, follow the steps below:
 
 
 2. Create a virtual environment using `venv` module:
-  `py -m ve`nv myenv
+  `py -m venv myenv`
 
 3. Activate the virtual environment:
   `myenv\Scripts\activate`
