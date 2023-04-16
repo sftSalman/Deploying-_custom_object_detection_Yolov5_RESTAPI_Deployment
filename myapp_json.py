@@ -33,5 +33,5 @@ if __name__ == "__main__":
 
    
     # set your own path to load custome model 
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path="yolov5-master/runs/train/exp3/weights/best.pt", force_reload=True)
+    model = torch.hub.load('ultralytics/yolov5', 'custom',"yolov5-master/runs/train/exp3/weights/best.pt", force_reload=True)
     app.run(host="0.0.0.0", port=args.port)  # debug=True causes Restarting with stat
