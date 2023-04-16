@@ -1,8 +1,8 @@
 #train: set your own data path for training 
 #val: set your own data path for validation/testing
 
-train : E:\s1\Job\Final\obj
-val: E:\s1\Job\Final\test
+train : "/obj"
+val: "/test"
 
 nc: 2   # number if class , here just two , cat and dog 
 names: ['cat', 'dog'] # class name
