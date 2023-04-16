@@ -1,0 +1,49 @@
+#train: set your own data path for training 
+#val: set your own data path for validation/testing
+
+train : E:\s1\Job\Final\obj
+val: E:\s1\Job\Final\test
+
+nc: 2   # number if class , here just two , cat and dog 
+names: ['cat', 'dog'] # class name
+
+
+
+# data augmentation 
+img_size: 640
+random_crop:
+  enable: True
+  min_scale: 0.5
+  max_scale: 0.9
+  min_aspect_ratio: 0.5
+  max_aspect_ratio: 2.0
+flip:
+  enable: True
+  prob: 0.5
+hsv:
+  enable: True
+  h_gain: 0.05
+  s_gain: 0.1
+  v_gain: 0.1
+blur:
+  enable: True
+  prob: 0.2
+  radius: 1.0
+noise:
+  enable: True
+  prob: 0.1
+  amount: 0.01
+perspective:
+  enable: True
+  prob: 0.05
+  distortion_scale: 0.1
+random_erasing:
+  enable: True
+  prob: 0.5
+  min_area: 0.1
+  max_area: 0.3
+  min_aspect_ratio: 0.3
+  max_aspect_ratio: 3.0
+
+# cat: 0 
+# dog : 1 
