@@ -1,4 +1,4 @@
-![Cute cat](static/yolov5.jpg)
+![yolo5](https://user-images.githubusercontent.com/33355278/232350798-3ce7af8c-ab21-402d-beb5-8e931f9d9d4b.jpg)
 
 
 # Cats and Dogs detection using yolov5 and deployment using REST API (Flask)
