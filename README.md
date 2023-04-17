@@ -54,8 +54,11 @@ The given datasets has 103 images with different types of image extenson like .j
 # Annotation : 
 For annotatating I used "labelImg" (https://github.com/heartexlabs/labelImg)
 
+# Model: 
+</br>
+YOLOv5s (You Only Look Once version 5 small) is a state-of-the-art object detection model s. It is an improvement over previous versions of YOLO, which are known for their speed and accuracy in real-time object detection. YOLOv5s is based on a deep neural network architecture that uses convolutional layers to analyze an image at different scales and extract features that are then used to detect objects in the image.
 
-
+One of the key advantages of YOLOv5s is its high accuracy in object detection. It achieves state-of-the-art results on several object detection benchmarks while being much faster than other object detection models.
 
 
 # Training : 
