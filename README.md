@@ -39,17 +39,23 @@ The given datasets has 103 images with different types of image extenson like .j
 ## Checking image format 
 ## Convert all types of images into .jpg format
 ## Create new directory 
-*-obj/images
+*-obj/images,
 -obj/labels*,
 
-*-test/images
+*-test/images,
 -test/labels*
 
 ## Split data 
-*90 images for training 
+*90 images for training,
 -12 images for testing* 
 
 ## Check annotation 
 
 # Annotation : 
 For annotatating I used "labelImg" (https://github.com/heartexlabs/labelImg)
+
+
+
+
+
+# Training : 
