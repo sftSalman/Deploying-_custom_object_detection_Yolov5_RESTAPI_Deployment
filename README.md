@@ -66,7 +66,18 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 </br> precision : .99
 </br>recall .93 
 </br> mAP_0.5 : .99 
-</br> mAP_0.5:0.95 . 
+</br> mAP_0.5:0.95 .76
 
 - But the overall results shows  that the model is overfitting to the training data, meaning that it is performing well on the training data but may not generalize well to new data.
 ![results](https://user-images.githubusercontent.com/33355278/232404960-525fb434-1303-4d27-af17-d8cd99f93b73.png)
+
+
+</br> As my model is overfitting thats why I need to take severel steps to ruduce the overfitting . So I take following steps : 
+- Reduce epochs
+- Increase image size 
+- Use augmented data 
+- Use early stopping with pat
+-`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt--patience 6`
+
+But due to eartly stopping with patience 6 , model stop learning so quickly . It runs for just 18 epochs so I don't get the satisfactory result 
+
