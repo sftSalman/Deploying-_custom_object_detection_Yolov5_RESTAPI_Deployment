@@ -41,3 +41,6 @@ The given datasets has 103 images with different types of image extenson like .j
 ## Create new directory 
 ## Split data 
 ## Check annotation 
+
+# Annotation : 
+For annotatating I used "labelImg" (https://github.com/heartexlabs/labelImg)
