@@ -31,7 +31,7 @@ To get started with this project, follow the steps below:
 
 5. Start the application:
   `py myapp.py --port 5000`
-</br> myapp.json.py can be used for getting json output 
+</br> `myapp.json.py` can be used for getting json output 
 
 
 # Dataset 
