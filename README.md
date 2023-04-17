@@ -106,15 +106,14 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 </br> mAP_0.5:0.95 .74
 
 </br> Here are all results taken from this training 
+![F1_curve](https://user-images.githubusercontent.com/33355278/232432216-a2b130d4-0173-42bc-b276-beddf95587e9.png)
 
-![P_curve](https://user-images.githubusercontent.com/33355278/232410482-4682045c-6ff3-45a1-81f8-570d5006350f.png)
-![R_curve](https://user-images.githubusercontent.com/33355278/232410506-4cc4096c-662c-43e6-bdbd-6e3a2a06d3bb.png)
-![F1_curve](https://user-images.githubusercontent.com/33355278/232410522-eefe6874-a011-473a-86ec-7fd8a8f1d3dc.png)
+![P_curve](https://user-images.githubusercontent.com/33355278/232432245-afd0d476-ac42-4e3a-a932-c851f3ebd0ee.png)
+![R_curve](https://user-images.githubusercontent.com/33355278/232432258-7e74eb36-a56b-48f5-876f-c071826f0d8d.png)
+![PR_curve](https://user-images.githubusercontent.com/33355278/232432285-7b15d92d-842a-4c54-b134-2e32774be4c0.png)
+![results](https://user-images.githubusercontent.com/33355278/232432312-61b45b96-532d-4d1e-bac7-0450975ed28f.png)
+![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232432376-00b9c366-3ecc-4f95-aee6-eef7ea9d8b04.jpg)
 
-![PR_curve](https://user-images.githubusercontent.com/33355278/232410535-b3654f3e-cd67-4c4a-bc1e-d3c0007b40f1.png)
-![results](https://user-images.githubusercontent.com/33355278/232410571-c00a073d-e2be-4bf1-b243-4f85eb27fd63.png)
-
-![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232410602-ffb9c7b2-71cc-48e9-90c6-7bbb06908fa8.jpg)
 
 # Testing in real data and Challenges : 
 
