@@ -31,7 +31,7 @@ To get started with this project, follow the steps below:
 
 5. Start the application:
   `py myapp.py --port 5000`
-
+</br> myapp.json.py can be used for getting json output 
 
 
 # Dataset 
@@ -68,7 +68,7 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 </br> mAP_0.5 : .99 
 </br> mAP_0.5:0.95 .76
 
-- But the overall results shows  that the model is overfitting to the training data, meaning that it is performing well on the training data but may not generalize well to new data.
+- But the overall results show  that the model is overfitting in training data, meaning that it is performing well on the training data but may not generalize well to new data.
 ![results](https://user-images.githubusercontent.com/33355278/232404960-525fb434-1303-4d27-af17-d8cd99f93b73.png)
 
 
@@ -85,7 +85,7 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 
 
-</br>For the third I use everything same as before just changed the patience 6 to 10 , that means 
+</br>For the  third time I use everything same as before just changed the patience 6 to 10 and increase epoch , that means 
 - image size 640 
 - batch 16 
 - epoch 100 
@@ -96,7 +96,8 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 `
 
--n this time I get very satisfactory result with no overfitting . It runs for 68 epochs and we get our best result best model in 57 epocs . 
+</br>n this time I get very satisfactory result with no overfitting . It runs for 68 epochs and we get our best result best model in 57 epocs . 
+
 -The final results are : 
 -</br> precision : .93
 </br>recall .99
@@ -115,6 +116,8 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 ![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232410602-ffb9c7b2-71cc-48e9-90c6-7bbb06908fa8.jpg)
 
 # Testing in real data and Challenges : 
+
+
 As we know the dataset is very small and it has a lot of duplicated images (same images with different name) in both the training and test set which lead the data leakage. If a dataset has duplicate images from the training set to the test set, it is called data leakage. Data leakage occurs when information from the training set leaks into the test set, resulting in artificially inflated performance metrics. It can lead to overfitting and make it difficult to accurately evaluate the model's performance on new, unseen data.  That's why, besides having very good evaluation metrics the model may not work accordingly in case of new and unseen data. 
 Here is a sample of new and unseen data  : 
 
@@ -124,4 +127,6 @@ Here is a sample of new and unseen data  :
 
 ![7](https://user-images.githubusercontent.com/33355278/232415571-35b7342b-4e35-432a-9e24-ad15f0e463ee.jpg)
 ![4](https://user-images.githubusercontent.com/33355278/232415681-646bbf91-858a-4b73-8b66-71337cb76a32.jpg)
+
+
 
