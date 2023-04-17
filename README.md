@@ -86,11 +86,11 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 
 
-</br>For the  third time I use everything same as before just changed the patience 6 to 10 and increase epoch , that means 
+</br>For the  third time I use everything same as before just changed the patience 6 to 10 and increase epoch to 100 , that means 
 - image size 640 
 - batch 16 
 - epoch 100 
-- Use gmented data 
+- Use augmented data 
 - Early stopping with patience 10 
 
 
