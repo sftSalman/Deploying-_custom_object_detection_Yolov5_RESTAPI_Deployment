@@ -95,7 +95,7 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 
 
--`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 `
+-`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 ` 
 
 </br>n this time I get very satisfactory result with no overfitting . It runs for 68 epochs and we get our best result best model in 57 epocs . 
 
