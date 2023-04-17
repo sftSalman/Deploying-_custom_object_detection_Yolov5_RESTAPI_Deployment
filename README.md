@@ -76,8 +76,39 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 - Reduce epochs
 - Increase image size 
 - Use augmented data 
-- Use early stopping with pat
+- Use early stopping with patience 6 
+- </br>
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt--patience 6`
 
 But due to eartly stopping with patience 6 , model stop learning so quickly . It runs for just 18 epochs so I don't get the satisfactory result 
+![results](https://user-images.githubusercontent.com/33355278/232408239-bdc34b3b-da00-44e6-887b-8d53778f352d.png)
 
+
+
+</br>For the third I use everything same as before just changed the patience 6 to 10 , that means 
+- image size 640 
+- batch 16 
+- epoch 100 
+- Use gmented data 
+- Early stopping with patience 10 
+
+
+
+-`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 `
+
+-n this time I get very satisfactory result with no overfitting 
+-</br> precision : .93
+</br>recall .99
+</br> mAP_0.5 : .99 
+</br> mAP_0.5:0.95 .74
+
+</br> Here are all results taken from this training 
+
+![P_curve](https://user-images.githubusercontent.com/33355278/232410482-4682045c-6ff3-45a1-81f8-570d5006350f.png)
+![R_curve](https://user-images.githubusercontent.com/33355278/232410506-4cc4096c-662c-43e6-bdbd-6e3a2a06d3bb.png)
+![F1_curve](https://user-images.githubusercontent.com/33355278/232410522-eefe6874-a011-473a-86ec-7fd8a8f1d3dc.png)
+
+![PR_curve](https://user-images.githubusercontent.com/33355278/232410535-b3654f3e-cd67-4c4a-bc1e-d3c0007b40f1.png)
+![results](https://user-images.githubusercontent.com/33355278/232410571-c00a073d-e2be-4bf1-b243-4f85eb27fd63.png)
+
+![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232410602-ffb9c7b2-71cc-48e9-90c6-7bbb06908fa8.jpg)
