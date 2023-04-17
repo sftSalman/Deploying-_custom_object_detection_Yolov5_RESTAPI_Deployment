@@ -39,7 +39,14 @@ The given datasets has 103 images with different types of image extenson like .j
 ## Checking image format 
 ## Convert all types of images into .jpg format
 ## Create new directory 
+-obj/images
+-obj/labels
+-test/images
+-test/labels
+
 ## Split data 
+-90 images for training 
+-12 images for testing 
 ## Check annotation 
 
 # Annotation : 
