@@ -115,6 +115,7 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 ![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232432376-00b9c366-3ecc-4f95-aee6-eef7ea9d8b04.jpg)
 
 
+
 # Testing in real data and Challenges : 
 
 
