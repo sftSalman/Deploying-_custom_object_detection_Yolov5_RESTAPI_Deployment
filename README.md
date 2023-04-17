@@ -13,7 +13,7 @@
 
 
 # Installation
-![Uploading Screenshot 2023-04-17 061512.png…]()
+
 
 To get started with this project, follow the steps below:
 
@@ -34,3 +34,10 @@ To get started with this project, follow the steps below:
 
 
 
+# Dataset 
+The given datasets has 103 images with different types of image extenson like .jpg , .svg, jpeg . So we need to preprocess data properly . We used a python function called `preprocess.py` which perform 
+Checking image format 
+Convert all types of images into .jpg format
+Create new directory 
+Split data 
+Check annotation 
