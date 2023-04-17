@@ -59,7 +59,11 @@ For annotatating I used "labelImg" (https://github.com/heartexlabs/labelImg)
 
 
 # Training : 
-For the first time I used 50 epochs , batch size: 8 and image size  416 . I used rtx 3070 graphics card to train the model .-
-`
-py train.py --img 416 --batch 8 --epochs 50 --data E:\s1\Job\yolov4\dataset.yml --weights E:\s1\Job\yolov4\yolov5\yolov5s.pt`
+For the first time I used 100 epochs , batch size: 8 and image size  416 . I used rtx 3070 graphics card to train the model .-
 
+`
+py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt`
+</br> precision : .99
+</br>recall .93 
+</br> mAP_0.5 : .99 
+</br> mAP_0.5:0.95 
