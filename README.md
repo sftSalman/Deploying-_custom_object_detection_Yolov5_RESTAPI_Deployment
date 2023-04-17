@@ -68,7 +68,7 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 </br> mAP_0.5 : .99 
 </br> mAP_0.5:0.95 .76
 
-- But the overall results show  that the model is overfitting in training data, meaning that it is performing well on the training data but may not generalize well to new data.
+- But the overall results show  that the model is overfitting , meaning that it is performing well on the training data but may not generalize well to new data.
 ![results](https://user-images.githubusercontent.com/33355278/232404960-525fb434-1303-4d27-af17-d8cd99f93b73.png)
 
 
