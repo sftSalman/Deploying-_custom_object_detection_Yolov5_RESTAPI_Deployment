@@ -74,7 +74,8 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 - But the overall results show  that the model is overfitting , meaning that it is performing well on the training data but may not generalize well to new data. As ephocs number is increasing , we can see that the model performence in training data is increasing but no improvment in testing data . 
 - Here is the result 
 ![results](https://user-images.githubusercontent.com/33355278/232404960-525fb434-1303-4d27-af17-d8cd99f93b73.png)
--For more results  ##https://github.com/sftSalman/cats_and_dogs_detection_Yolov5_RESTAPI_Deployment/tree/main/yolov5-master/runs/train/exp 
+-For more results 
+## https://github.com/sftSalman/cats_and_dogs_detection_Yolov5_RESTAPI_Deployment/tree/main/yolov5-master/runs/train/exp 
 
 </br> As my model is overfitting thats why I need to take severel steps to ruduce the overfitting . So I take following steps : 
 - Reduce epochs
@@ -84,7 +85,8 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 - </br>
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt--patience 6`
 
-But due to early stopping with patience 6, the model stops learning so quickly. It runs for just 18 epochs so I don't get the satisfactory result 
+But due to early stopping with patience 6, the model stops learning so quickly. It runs for just 18 epochs so I don't get the satisfactory result   
+##  https://github.com/sftSalman/cats_and_dogs_detection_Yolov5_RESTAPI_Deployment/tree/main/yolov5-master/runs/train/exp2
 ![results](https://user-images.githubusercontent.com/33355278/232408239-bdc34b3b-da00-44e6-887b-8d53778f352d.png)
 
 
@@ -100,8 +102,8 @@ But due to early stopping with patience 6, the model stops learning so quickly. 
 
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 ` 
 
-</br>  this time I get a very satisfactory result with no overfitting. It runs for 68 epochs and we get our best result best model in 57 epoch . 
-
+</br>  This time I get a very satisfactory result with no overfitting. It runs for 68 epochs and we get our best result best model in 57 epoch . 
+## https://github.com/sftSalman/cats_and_dogs_detection_Yolov5_RESTAPI_Deployment/tree/main/yolov5-master/runs/train/exp3
 -The final results are : 
 -</br> precision : .93
 </br>recall .99
