@@ -114,10 +114,13 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 ![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232410602-ffb9c7b2-71cc-48e9-90c6-7bbb06908fa8.jpg)
 
-</br>
 # Testing in real data and Challenges : 
 As we know the dataset is very small and it has a lot of duplicated images (same images with different name) in both the training and test set which lead the data leakage. If a dataset has duplicate images from the training set to the test set, it is called data leakage. Data leakage occurs when information from the training set leaks into the test set, resulting in artificially inflated performance metrics. It can lead to overfitting and make it difficult to accurately evaluate the model's performance on new, unseen data.  That's why, besides having very good evaluation metrics the model may not work accordingly in case of new and unseen data. 
 Here is a sample of new and unseen data  : 
+
+
+
+
 
 ![7](https://user-images.githubusercontent.com/33355278/232415571-35b7342b-4e35-432a-9e24-ad15f0e463ee.jpg)
 ![4](https://user-images.githubusercontent.com/33355278/232415681-646bbf91-858a-4b73-8b66-71337cb76a32.jpg)
