@@ -35,7 +35,7 @@ To get started with this project, follow the steps below:
 
 
 # Dataset 
-The given datasets has 103 images with different types of image extenson like .jpg , .svg, jpeg . So we need to preprocess data properly . We used a python function called `preprocess.py` which perform 
+The given datasets has 103 images with different types of image extenson like .jpg , .svg, jpeg . So we need to preprocess data properly . We used a python function called `preprocess.py` which performs 
 ## Checking image format 
 ## Convert all types of images into .jpg format
 ## Create new directory 
