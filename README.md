@@ -81,12 +81,12 @@ py train.py --img 416 --batch 8 --epochs 100 --data E:\s1\Job\Final\dataset.yml 
 - </br>
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt--patience 6`
 
-But due to eartly stopping with patience 6 , model stop learning so quickly . It runs for just 18 epochs so I don't get the satisfactory result 
+But due to early stopping with patience 6, the model stops learning so quickly. It runs for just 18 epochs so I don't get the satisfactory result 
 ![results](https://user-images.githubusercontent.com/33355278/232408239-bdc34b3b-da00-44e6-887b-8d53778f352d.png)
 
 
 
-</br>For the  third time I use everything same as before just changed the patience 6 to 10 and increase epoch to 100 , that means 
+</br>For the  third time, I use everything the same as before just changed the patience 6 to 10 and increase the epoch to 100 , which means
 - image size 640 
 - batch 16 
 - epoch 100 
@@ -97,7 +97,7 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 
 -`py train.py --img 640 --batch 16 --epochs 100 --data E:\s1\Job\Final\dataset.yml --weights E:\s1\Job\Final\yolov5-master\yolov5s.pt --patience 10 ` 
 
-</br>n this time I get very satisfactory result with no overfitting . It runs for 68 epochs and we get our best result best model in 57 epocs . 
+</br>  this time I get a very satisfactory result with no overfitting. It runs for 68 epochs and we get our best result best model in 57 epoch . 
 
 -The final results are : 
 -</br> precision : .93
@@ -119,8 +119,8 @@ But due to eartly stopping with patience 6 , model stop learning so quickly . It
 # Testing in real data and Challenges : 
 
 
-As we know the dataset is very small and it has a lot of duplicated images (same images with different name) in both the training and test set which lead the data leakage. If a dataset has duplicate images from the training set to the test set, it is called data leakage. Data leakage occurs when information from the training set leaks into the test set, resulting in artificially inflated performance metrics. It can lead to overfitting and make it difficult to accurately evaluate the model's performance on new, unseen data.  That's why, besides having very good evaluation metrics the model may not work accordingly in case of new and unseen data. 
-Here is a sample of new and unseen data  : 
+As we know the dataset is very small and it has a lot of duplicated images (the same images with different names) in both the training and test set which leads the data leakage. If a dataset has duplicate images from the training set to the test set, it is called data leakage. Data leakage occurs when information from the training set leaks into the test set, resulting in artificially inflated performance metrics. It can lead to overfitting and make it difficult to accurately evaluate the model's performance on new, unseen data.  That's why, besides having very good evaluation metrics the model may not work accordingly in case of new and unseen data. 
+Here is a sample of new and unseen data
 
 
 
