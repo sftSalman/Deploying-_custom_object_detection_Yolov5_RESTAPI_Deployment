@@ -118,7 +118,6 @@ But due to early stopping with patience 6, the model stops learning so quickly. 
 ![R_curve](https://user-images.githubusercontent.com/33355278/232432258-7e74eb36-a56b-48f5-876f-c071826f0d8d.png)
 ![PR_curve](https://user-images.githubusercontent.com/33355278/232432285-7b15d92d-842a-4c54-b134-2e32774be4c0.png)
 ![results](https://user-images.githubusercontent.com/33355278/232432312-61b45b96-532d-4d1e-bac7-0450975ed28f.png)
-![val_batch0_labels](https://user-images.githubusercontent.com/33355278/232432376-00b9c366-3ecc-4f95-aee6-eef7ea9d8b04.jpg)
 
 
 
