@@ -130,8 +130,6 @@ Here is a sample of new and unseen data
 
 
 
-![7](https://user-images.githubusercontent.com/33355278/232415571-35b7342b-4e35-432a-9e24-ad15f0e463ee.jpg)
-![4](https://user-images.githubusercontent.com/33355278/232415681-646bbf91-858a-4b73-8b66-71337cb76a32.jpg)
 
 
 # Reference 
