@@ -46,9 +46,7 @@ The given datasets has 103 images with different types of image extenson like .j
 *-test/images,
 -test/labels*
 
-## Split data 
-*90 images for training,
--12 images for testing* 
+
 
 ## Check annotation 
 
