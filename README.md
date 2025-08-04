@@ -2,7 +2,7 @@
 ![yolo5](https://user-images.githubusercontent.com/33355278/232350798-3ce7af8c-ab21-402d-beb5-8e931f9d9d4b.jpg)
 
 
-# Cats and Dogs detection using yolov5 and deployment using REST API (Flask)
+# Deploying-_custom_object_detection_Yolov5_RESTAPI_Deployment
 ![Screenshot 2023-04-17 061324](https://user-images.githubusercontent.com/33355278/232351759-12253d57-61f0-4c2f-bd05-2450684bf371.png)
 )
 
